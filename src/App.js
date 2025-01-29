@@ -20,6 +20,7 @@ function App() {
 
   return (
     <div>
+      <h1>Aplicación de Frontend con React, JavaScript y CSS</h1>
       <h1>Registrar Usuario</h1>
       <input type="text" placeholder="Nombre" value={nombre} onChange={e => setNombre(e.target.value)} />
       <input type="text" placeholder="Correo" value={correo} onChange={e => setCorreo(e.target.value)} />
